@@ -3,7 +3,7 @@ Bootstrap project to run standalone Capybara against a remote application. Curre
 
 ## Installation
 
-```
+```sh
 $ brew install chromedriver
 $ cd capybara-solo
 $ bundle install
@@ -11,7 +11,7 @@ $ bundle install
 
 ## Configuration
 
-```
+```sh
 # Create and edit your .env file
 $ cp .env.example .env
 ```
@@ -20,7 +20,7 @@ $ cp .env.example .env
 
 1) Create a test in the features directory (e.g., spec/features/google_index_spec.rb).
 
-```
+```ruby
 describe "Google's home page" do
   it %Q$should contain the "I'm Feeling Lucky Button"$ do
     visit '/'
@@ -31,7 +31,13 @@ end
 
 2) Run it:
 
-```
-$ rspec spec/features/google_index_spec.rb
+```sh
+$ rspec spec/features/google_index_spec.rb --format documentation
+
+Google's home page
+  should contain the "I'm Feeling Lucky Button"
+
+Finished in 1.29 seconds (files took 0.73299 seconds to load)
+1 example, 0 failures
 ```
 
