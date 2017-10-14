@@ -41,3 +41,9 @@ Finished in 1.29 seconds (files took 0.73299 seconds to load)
 1 example, 0 failures
 ```
 
+## Resources
+
+* http://teamcapybara.github.io/capybara/
+* http://rspec.info/
+* http://www.seleniumhq.org/
+* https://developers.google.com/web/updates/2017/04/headless-chrome
