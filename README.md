@@ -5,6 +5,7 @@ Bootstrap project to run standalone Capybara against a remote application. Curre
 
 ```sh
 $ brew install chromedriver
+$ git clone git@github.com:seanreads/capybara-solo.git
 $ cd capybara-solo
 $ bundle install
 ```
