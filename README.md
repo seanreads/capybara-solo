@@ -19,7 +19,7 @@ $ cp .env.example .env
 
 ## Usage
 
-1) Create a test in the features directory (e.g., spec/features/google_index_spec.rb).
+1) Create a features directory and throw a test in there (e.g., spec/features/google_index_spec.rb).
 
 ```ruby
 describe "Google's home page" do
